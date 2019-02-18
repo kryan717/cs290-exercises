@@ -25,9 +25,7 @@ body{
   background-color: gray;
 }
 img{
-  width: 400px;
-  height: 400px;
-  padding: 0px 0px 0px 0px;
+  width: 50%;
 }
 #links{
   text-align: center;
@@ -90,4 +88,27 @@ td{
 }
 th{
   background-color: powderblue;
+}
+input[type=text],textarea {
+  border: 5px solid powderblue;
+  border-radius: 80px;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0px;
+  box-sizing: border-box;
+}
+input[type=reset],input[type=submit]{
+  border: 1px solid lightgray;
+  border-radius: 80px;
+  width: 80px;
+  padding: 12px 20px;
+  margin: 8px 0px;
+  box-sizing: border-box;
+}
+input[type=reset]:hover, input[type=submit]:hover{
+  background-color: powderblue;
+}
+#form{
+  text-align: left;
+  margin: 50px;
 }
